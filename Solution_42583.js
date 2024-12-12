@@ -7,7 +7,7 @@ function solution(bridge_length, weight, truck_weights) {
     let dupCnt = 0;
     while (passing.length || truck.length) {
         if (passing[0][1] === answer) weightOnBridge -= passing.shift()[0];
-        // console.log('w eightOnBridge', answer, weightOnBridge)
+        // console.log('weightOnBridge', answer, weightOnBridge)
         if (weightOnBridge + truck[0] <= weight) {
             weightOnBridge += truck[0];
             passing.push([truck.shift(), answer + bridge_length]);
