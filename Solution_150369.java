@@ -14,7 +14,7 @@ class Solution {
                 cnt++;
             }
 
-            answer += (i + 1) * 2 * cnt;//
+            answer += (i + 1) * 2 * cnt;
         }
 
         return answer;
