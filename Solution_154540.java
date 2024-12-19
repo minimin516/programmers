@@ -9,7 +9,7 @@ class Solution {
         
         for(int i = 0; i<maps.length; i++){
             for(int j = 0; j<maps[i].length(); j++){
-                if(visit[i][j] || maps[i].charAt(j) == 'X')    continue;
+                if(visit[i][j] || maps[i].charAt(j) == 'X') continue;
                 
                 visit[i][j] = true;
                 que.add(new int[] {i, j});
