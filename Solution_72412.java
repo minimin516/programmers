@@ -5,7 +5,7 @@ class Solution {
         map = new HashMap<>();
         for(String i : info){
             String[] arr = i.split(" ");
-            comb(arr,0,"");
+            comb(arr, 0, "");
         }
 
         for(String k : map.keySet())Collections.sort(map.get(k));
