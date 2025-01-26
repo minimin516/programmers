@@ -16,7 +16,7 @@ class Solution {
 
     private int count(String query, Node trie, Node reversedTrie) {
         if (query.startsWith("?")) {
-            return reversedTrie.count(new StringBuilder(query).reverse().toString(), 0);
+            return reversedTrie.count(new StringBuilder(query).reverse().toString(), 0); 
         }
         return trie.count(query, 0);
     }
