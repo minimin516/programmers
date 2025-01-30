@@ -5,9 +5,9 @@ class Solution {
         dp[0]=1;
         for(int m : money){
             for(int i=m;i<=n; i++){
-                dp[i] += dp[i-m]%NUMBER;
+                dp[i] += dp[i-m] % NUMBER; 
             }
         }
-        return dp[n];
+        return dp[n]; 
     }
 }
