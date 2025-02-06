@@ -33,7 +33,7 @@ class Solution {
         	char c2 = str.charAt(i+1);
         	
         	if((int)c1<65 || (int)c1>90) continue;
-        	if((int)c2<65 || (int)c2>90) continue;
+        	if((int)c2<65 || (int)c2>90) continue; 
         	String s = str.substring(i,i+2);
         	list.add(s);
         }
