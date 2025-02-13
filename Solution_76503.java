@@ -27,7 +27,7 @@ class Solution {
             indegree[node2]++;
         }
 
-        for(int i = 0; i < indegree.length; i++) {
+        for(int i = 0; i < indegree.length; i++) { 
             if(indegree[i] == 1) {
                 q.offer(i);
             }
