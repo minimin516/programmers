@@ -10,7 +10,7 @@ class Solution {
         for(int i=0;i<n;i++) {
             int max = pq.poll();
             if(max<=0) {
-                break;
+                break; //
             }
             pq.offer(max-1);
         }
