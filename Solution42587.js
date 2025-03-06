@@ -11,5 +11,5 @@ function solution(priorities, location) {
         max.data <= first.data ? t.push(first) : queue.push(first);
     }
     answer = t.findIndex((n) => n.idx === location);
-    return answer + 1;//
+    return answer + 1;///
 }
