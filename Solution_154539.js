@@ -6,7 +6,7 @@ function solution(numbers) {
         while (idxArr.length && numbers[idxArr[idxArr.length - 1]] < numbers[i]) {
             answer[idxArr.pop()] = numbers[i];
         }
-        idxArr.push(i);
+        idxArr.push(i);//
     }
     return answer;
 }
